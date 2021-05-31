@@ -7,9 +7,9 @@ This version has been updated to run in Python version 3. In this version, the d
 each line. A random change to the delay of +/-10% is applied to each character to make it look a little more like a serial
 terminal from the long-lost good old days. This effect is of course more apparent with longer delays.
 
-Run slowcat like this:
+Run slowcat like this. This works in bash and zsh, in other shells your mileage may vary:
 
-python slowcat.py -d 0.1 < thefileyouwishtoreadslowly.txt
+**python slowcat.py -d 0.1 < thefileyouwishtoreadslowly.txt**
 
 if you make the file executable, you can omit the word 'python' from the above.
 
